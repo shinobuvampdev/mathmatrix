@@ -8,6 +8,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+
+  <p> Thanks for visiting the website, It's currently under development, for any issues contact support@telepathystuidos.icu </p>
   </React.StrictMode>
 );
 
