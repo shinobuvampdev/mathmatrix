@@ -78,7 +78,7 @@ function App() {
         id="about"
         className="h-auto scroll-mt-20 py-5 lg:p-0 lg:h-50 flex items-center justify-center bg-bluebg"
       >
-        <div className="flex-col lg:flex text-white">
+        <div className="flex-col lg:flex lg:flex-row text-white">
           <h1 className="text-4xl font-bold px-5 w-auto lg:w-120 lg:border-r-2">
             Providing solutions for reliable growth.
           </h1>

@@ -10,7 +10,7 @@ body {
 }
 
 .background-section {
-  background-image: url("/Assets/HomePage/LandingPage-1.jpg"); /* Replace with your image path */
+  background-image: url("/assets/HomePage/LandingPage-1.jpg"); /* Replace with your image path */
 }
 
 @media (max-width: 512px) {
