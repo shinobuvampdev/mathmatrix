@@ -29,8 +29,8 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#quote" className="hover:underline p-4">
-                Quote
+              <a href="#solutions" className="hover:underline p-4">
+                Solutions
               </a>
             </li>
             <li>

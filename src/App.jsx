@@ -64,7 +64,7 @@ function App() {
       >
         <div className="background-section bg-custom bg-cover lg:bg-center bg-no-repeat w-full h-screen"></div>
         <div className="absolute w-auto lg:w-5xl left-8">
-          <h1 className="text-3xl lg:text-5xl font-bold">
+          <h1 className="text-3xl lg:text-5xl font-bold px-4">
             Empowering Businesses with Scalable Web & Mobile Solutions
           </h1>
           <h2 className="text-xl py-3">
