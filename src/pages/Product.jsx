@@ -17,7 +17,7 @@ export function Product() {
           {/* Thumbnail / App Image */}
           <img
             className="w-full h-48 object-cover"
-            src="public\assets\ProductPage\android-chrome-512x512.png" // replace with your app screenshot
+            src="assets/ProductPage/android-chrome-512x512.png" // replace with your app screenshot
             alt="ValoUp App Preview"
           />
 
