@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import { Button } from "@headlessui/react";
 
 const Navbar = () => {
   const [isOpen, setisOpen] = useState(false);
@@ -19,24 +22,31 @@ const Navbar = () => {
 
           <ul className="hidden md:flex items-center">
             <li>
-              <a href="#home" className="hover:underline p-4">
+              <Link to="/products" className="hover:underline p-4">
+                <Button className="text-white bg-blue-500 p-2 rounded-2xl">
+                  Products
+                </Button>
+              </Link>
+            </li>
+            <li>
+              <HashLink smooth to="/#home" className="hover:underline p-4">
                 Home
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#about" className="hover:underline p-4">
+              <HashLink smooth to="/#about" className="hover:underline p-4">
                 About Us
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#solutions" className="hover:underline p-4">
+              <HashLink smooth to="/#solutions" className="hover:underline p-4">
                 Solutions
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#contact" className="hover:underline p-4">
+              <HashLink smooth to="/#contact" className="hover:underline p-4">
                 Contact Us
-              </a>
+              </HashLink>
             </li>
           </ul>
           <div className="md:hidden items-end">
